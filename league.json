@@ -1,0 +1,31 @@
+{
+  "name": "Northend Street League Pinball",
+  "shortName": "NESLP",
+  "titlePrefix": "Street League Pinball",
+  "timeZone": "America/Los_Angeles",
+  "matchKeyPrefix": "slp",
+  "publicUrl": "https://northend.seattle.streetleaguepinball.com",
+  "contactEmail": "info@streetleaguepinball.com",
+  "conductEmail": "info@streetleaguepinball.com",
+  "emailName": "Street League Pinball",
+  "emailSubjects": {
+    "verify": "Confirm Email for Northend Street League Pinball",
+    "forgotPassword": "Reset Password for Northend Street League Pinball"
+  },
+  "mainMenu": [
+    { "label": "HOME", "href": "/" },
+    { "label": "TEAMS", "href": "/teams" },
+    { "label": "SCHEDULE", "href": "/schedule" },
+    { "label": "STANDINGS", "href": "/standings" },
+    { "label": "MATCHES", "href": "/matches" },
+    { "label": "MY MATCH", "href": "/mymatch" },
+    { "label": "MY TEAM", "href": "/myteam" },
+    { "label": "STATS", "href": "/stats" },
+    { "label": "VENUES", "href": "/venues" },
+    { "label": "MACHINES", "href": "/machines" },
+    { "label": "SIGN-UP", "href": "/signup" },
+    { "label": "LOGIN", "href": "/login", "redirect": true },
+    { "label": "PROFILE", "href": "/profile" }
+  ],
+  "playerMenu": null
+}
